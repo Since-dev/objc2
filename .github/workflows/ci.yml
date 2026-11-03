@@ -434,9 +434,9 @@ jobs:
           target: aarch64-apple-darwin
           os: macos-26 # Aarch64
           frameworks: MACOS_15
-        - name: macOS 14 Aarch64 nightly
+        - name: macOS 15 Aarch64 nightly
           target: aarch64-apple-darwin
-          os: macos-14 # Aarch64
+          os: macos-15 # Aarch64
           frameworks: MACOS_14
           nightly: true
 
@@ -499,14 +499,14 @@ jobs:
           no-run: true # Waiting on https://github.com/madsmtm/cargo-apple-runner/issues/14.
         - name: iOS ARMv7s
           target: armv7s-apple-ios
-          os: macos-14 # Aarch64
+          os: macos-15 # Aarch64
           frameworks: IOS_10
           nightly: true
           build-std: true
           no-run: true
         - name: iOS x86
           target: i386-apple-ios
-          os: macos-14 # Aarch64
+          os: macos-15 # Aarch64
           frameworks: IOS_10
           nightly: true
           build-std: true
